@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ExpandingCard from './case/expanding-cards';
+import ProgressStreps from './case/progress-steps';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -12,6 +13,7 @@ ReactDOM.render(
       <Routes>
         <Route path='/' element={<App/>}></Route>
         <Route path='/expanding-cards' element={<ExpandingCard/>}></Route>
+        <Route path='/progress-steps' element={<ProgressStreps />}></Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
